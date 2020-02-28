@@ -15,33 +15,36 @@ struct ContentView: View {
     var body: some View {
         
         VStack (alignment: .leading) {
-            Button(action: { }) {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("1")
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
+                .font(.system(size: 12))
             }
             .padding()
-            .frame(width: 30.0, height: 30.0)
+            .frame(width: 25.0, height: 25.0)
             
             HStack {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("3")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("4")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
             }
             
             HStack {
@@ -49,19 +52,21 @@ struct ContentView: View {
                     Text("11")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("12")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
             }
             
             HStack {
@@ -69,64 +74,71 @@ struct ContentView: View {
                     Text("19")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("20")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("21")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("22")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("23")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("24")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("25")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
             }
             
             HStack {
@@ -134,64 +146,71 @@ struct ContentView: View {
                     Text("37")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("38")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("39")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("40")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("41")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("42")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("43")
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
-                    .frame(width: 30.0, height: 30.0)
+                    .frame(width: 25.0, height: 25.0)
+                    .font(.system(size: 12))
                 }
                 .padding()
-                .frame(width: 30.0, height: 30.0)
+                .frame(width: 25.0, height: 25.0)
                 
             }
             
