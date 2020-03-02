@@ -8,6 +8,11 @@
 
 import SwiftUI
 
+let frameWidth: CGFloat = 25.0
+let frameHeight: CGFloat = 25.0
+
+let buttonFontSize: CGFloat = 12
+
 struct ContentView: View {
     
     @State var text = "Hello, SwiftUI!"
@@ -19,8 +24,8 @@ struct ContentView: View {
                 Text("1")
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.center)
-                .frame(width: 25.0, height: 25.0)
-                .font(.system(size: 12))
+                    .frame(width: frameWidth, height: frameHeight)
+                .font(.system(size: buttonFontSize))
             }
             .padding()
             .frame(width: 25.0, height: 25.0)
