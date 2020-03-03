@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack (alignment: .leading) {
+        HorizontalAlignment.VStack (alignment: .leading) {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("1")
                 .foregroundColor(Color.black)
@@ -53,30 +53,130 @@ struct ContentView: View {
             }
             
             HStack {
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("11")
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("12")
+                            .foregroundColor(Color.black)
+                            .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+            
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("")
+                        
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("11")
+                    Text("")
+                    
                     .foregroundColor(Color.black)
                     .multilineTextAlignment(.center)
                     .frame(width: frameWidth, height: frameHeight)
                     .font(.system(size: buttonFontSize))
                 }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                        
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                        
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("12")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                    .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                            .padding()
+                            .frame(width: frameWidth, height: frameHeight)
             }
             
             HStack {
-                HStack {
-                    HStack {
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("19")
                             .foregroundColor(Color.black)
@@ -157,7 +257,6 @@ struct ContentView: View {
                     }
                     .padding()
                     .frame(width: frameWidth, height: frameHeight)
-                }
                 
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("27")
@@ -168,6 +267,7 @@ struct ContentView: View {
                     }
                     .padding()
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("28")
                     
@@ -177,6 +277,7 @@ struct ContentView: View {
                     .font(.system(size: buttonFontSize))
                 }
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("29")
                     
@@ -186,6 +287,7 @@ struct ContentView: View {
                     .font(.system(size: buttonFontSize))
                 }
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("30")
                     
@@ -195,6 +297,7 @@ struct ContentView: View {
                     .font(.system(size: buttonFontSize))
                 }
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("31")
                     
@@ -204,6 +307,7 @@ struct ContentView: View {
                     .font(.system(size: buttonFontSize))
                 }
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("32")
                     
@@ -213,6 +317,7 @@ struct ContentView: View {
                     .font(.system(size: buttonFontSize))
                 }
                 .frame(width: frameWidth, height: frameHeight)
+            
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("33")
                     
@@ -315,6 +420,7 @@ struct ContentView: View {
                 .frame(width: frameWidth, height: frameHeight)
                 
             }
+
             
             HStack {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
@@ -388,6 +494,7 @@ struct ContentView: View {
                 .padding()
                 .frame(width: frameWidth, height: frameHeight)
             }
+    
             
             HStack {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
@@ -463,7 +570,6 @@ struct ContentView: View {
             }
         }
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
