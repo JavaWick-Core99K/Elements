@@ -8,17 +8,19 @@
 
 import SwiftUI
 
-let frameWidth: CGFloat = 20.0
-let frameHeight: CGFloat = 20.0
+let frameWidth: CGFloat = 15.0
+let frameHeight: CGFloat = 15.0
 
-let buttonFontSize: CGFloat = 10
+let buttonFontSize: CGFloat = 8
+
+let stackSpacing: CGFloat = 1.5
 
 struct ContentView: View {
     
     @State var text = "Hello, SwiftUI!"
     
     var body: some View {
-        
+        // alignment: .leading
         VStack (alignment: .leading) {
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("1")
@@ -30,7 +32,7 @@ struct ContentView: View {
             .padding()
             .frame(width: frameWidth, height: frameHeight)
             
-            HStack {
+            HStack (spacing: stackSpacing) {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("3")
                     .foregroundColor(Color.black)
@@ -52,7 +54,7 @@ struct ContentView: View {
                 .frame(width: frameWidth, height: frameHeight)
             }
             
-            HStack {
+            HStack (spacing: stackSpacing) {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("11")
                     .foregroundColor(Color.black)
@@ -74,79 +76,124 @@ struct ContentView: View {
                 .frame(width: frameWidth, height: frameHeight)
             }
             
-            HStack {
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("19")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
+            HStack (spacing: stackSpacing) {
+                Group {
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("19")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("20")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("21")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("22")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("23")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("24")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("25")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("26")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("27")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("28")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
                 }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
+                Group {
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("29")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                }
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("20")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
                 
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("21")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("22")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("23")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("24")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
-                
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    Text("25")
-                    .foregroundColor(Color.black)
-                    .multilineTextAlignment(.center)
-                        .frame(width: frameWidth, height: frameHeight)
-                    .font(.system(size: buttonFontSize))
-                }
-                .padding()
-                .frame(width: frameWidth, height: frameHeight)
             }
             
-            HStack {
+            HStack (spacing: stackSpacing) {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("37")
                     .foregroundColor(Color.black)
@@ -219,7 +266,7 @@ struct ContentView: View {
                 
             }
             
-            HStack {
+            HStack (spacing: stackSpacing) {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("55")
                     .foregroundColor(Color.black)
@@ -292,7 +339,7 @@ struct ContentView: View {
                 .frame(width: frameWidth, height: frameHeight)
             }
             
-            HStack {
+            HStack (spacing: stackSpacing) {
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("87")
                     .foregroundColor(Color.black)
@@ -363,6 +410,37 @@ struct ContentView: View {
                 }
                 .padding()
                 .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("108")
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                    .font(.system(size: buttonFontSize))
+                }
+                .padding()
+                .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("109")
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                    .font(.system(size: buttonFontSize))
+                }
+                .padding()
+                .frame(width: frameWidth, height: frameHeight)
+                
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("110")
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                    .font(.system(size: buttonFontSize))
+                }
+                .padding()
+                .frame(width: frameWidth, height: frameHeight)
+                
             }
         }
     }
