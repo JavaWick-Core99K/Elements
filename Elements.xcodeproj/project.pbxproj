@@ -13,6 +13,7 @@
 		7EC49D5324055D7700BEBF94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC49D5224055D7700BEBF94 /* Assets.xcassets */; };
 		7EC49D5624055D7700BEBF94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC49D5524055D7700BEBF94 /* Preview Assets.xcassets */; };
 		7EC49D5924055D7700BEBF94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC49D5724055D7700BEBF94 /* LaunchScreen.storyboard */; };
+		D41A9036241A6C1E002B3122 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41A9035241A6C1E002B3122 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7EC49D5524055D7700BEBF94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7EC49D5824055D7700BEBF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC49D5A24055D7700BEBF94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D41A9035241A6C1E002B3122 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = ../../SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				7EC49D4C24055D6C00BEBF94 /* AppDelegate.swift */,
 				7EC49D4E24055D6C00BEBF94 /* SceneDelegate.swift */,
 				7EC49D5024055D6C00BEBF94 /* ContentView.swift */,
+				D41A9035241A6C1E002B3122 /* SwiftUIView.swift */,
 				7EC49D5224055D7700BEBF94 /* Assets.xcassets */,
 				7EC49D5724055D7700BEBF94 /* LaunchScreen.storyboard */,
 				7EC49D5A24055D7700BEBF94 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				7EC49D4D24055D6C00BEBF94 /* AppDelegate.swift in Sources */,
 				7EC49D4F24055D6C00BEBF94 /* SceneDelegate.swift in Sources */,
+				D41A9036241A6C1E002B3122 /* SwiftUIView.swift in Sources */,
 				7EC49D5124055D6C00BEBF94 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
