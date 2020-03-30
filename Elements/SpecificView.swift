@@ -14,15 +14,22 @@ struct SpecificView: View {
     
     @State var name: String = "Null"
     
-    init() {
-        if let el = element {
-            self.name = el.getName()
-        }
-    }
-    
     var body: some View {
         
-        Text(self.name)
+        NavigationView() {
+            // Name of the element
+            Text(self.name)
+                .onAppear() {
+                    // something
+                    if let el = element {
+                        self.name = el.getSymbol()
+                    } else {
+                        self.name = "None"
+                    }
+            }
+        }.navigationViewStyle(StackNavigationViewStyle())
+        .navigationBarTitle("Test")
+        
         
     }
 }
