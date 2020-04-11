@@ -24,7 +24,7 @@ struct SpecificView: View {
                     if let el = element {
                         self.name = el.getSymbol()
                     } else {
-                        self.name = "None"
+                        self.name = "Null"
                     }
             }
         }.navigationViewStyle(StackNavigationViewStyle())
