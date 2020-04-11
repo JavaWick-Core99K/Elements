@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Element {
+struct Element {
     
     var name: String
     var symbol: String
@@ -46,6 +46,10 @@ class Element {
         return atomicNumber
     }
     
+    func getAtomicMass() -> Double {
+        return atomicMass
+    }
+    
     func getProtons() -> Int {
         return protons
     }
@@ -58,15 +62,15 @@ class Element {
         return neutrons
     }
     
-    func getDiscovery() -> String {
-        return discovery!
+    func getDiscovery() -> String? {
+        return discovery
     }
     
-    func getDiscoveryDate() -> String {
-        return discoveryDate!
+    func getDiscoveryDate() -> String? {
+        return discoveryDate
     }
     
-    func getLocation() -> String {
-        return location!
+    func getLocation() -> String? {
+        return location
     }
 }

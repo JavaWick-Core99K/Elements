@@ -16,13 +16,17 @@ let buttonTextColor = Color.primary
 
 let stackSpacing: CGFloat = 3.0
 
+let list = ElementObjects()
+
 struct ContentView: View {
     
     @State var text = "Hello, SwiftUI!"
+    //@State var elementToggle = [Bool](repeating: false, count: 118)
     
     var body: some View {
         
         NavigationView {
+            
             // alignment: .leading
             VStack (alignment: .leading) {
                 
@@ -30,7 +34,8 @@ struct ContentView: View {
                 HStack (spacing: stackSpacing) {
                     Group {
                         
-                        NavigationLink(destination: SpecificView()) {
+                        // HYDROGEN (1)
+                        NavigationLink(destination: SpecificView(element: list.get(1))) {
                             Text("1")
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
@@ -40,7 +45,17 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Button(action: {}) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: {}) {
                             Text("")
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
@@ -60,15 +75,6 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -80,15 +86,6 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -100,15 +97,6 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -120,6 +108,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
+                        
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
                             .foregroundColor(buttonTextColor)
@@ -129,17 +118,31 @@ struct ContentView: View {
                         }
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
                     }
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -151,15 +154,6 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -171,15 +165,6 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("")
-                            .foregroundColor(buttonTextColor)
-                            .multilineTextAlignment(.center)
-                                .frame(width: frameWidth, height: frameHeight)
-                            .font(.system(size: buttonFontSize))
-                        }
-                        .padding()
-                        .frame(width: frameWidth, height: frameHeight)
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
@@ -191,6 +176,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
+                        
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
                             .foregroundColor(buttonTextColor)
@@ -201,7 +187,42 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
+                        
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        // HELIUM (2)
+                        NavigationLink(destination: SpecificView(element: list.get(2))) {
                             Text("2")
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
@@ -210,6 +231,7 @@ struct ContentView: View {
                         }
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
+                        
                     }
                 }
                 
@@ -235,6 +257,7 @@ struct ContentView: View {
                         }
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
+                        
                         
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
