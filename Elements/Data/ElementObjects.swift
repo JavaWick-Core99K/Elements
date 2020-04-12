@@ -54,7 +54,7 @@ struct ElementObjects {
         
         list[19] = Element(name: "Calcium", symbol: "Ca", number: 20, mass: 40.078)
         
-        list[20] = Element(name: "Scandium", symbol: "", number: 21, mass: 44.9559)
+        list[20] = Element(name: "Scandium", symbol: "Sc", number: 21, mass: 44.9559)
         
         list[21] = Element(name: "Titanium", symbol: "Ti", number: 22, mass: 47.867)
         

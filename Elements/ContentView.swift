@@ -36,7 +36,7 @@ struct ContentView: View {
                         
                         // HYDROGEN (1)
                         NavigationLink(destination: SpecificView(element: list.get(1))) {
-                            Text("1")
+                            Text(list.get(1).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -223,7 +223,7 @@ struct ContentView: View {
                         
                         // HELIUM (2)
                         NavigationLink(destination: SpecificView(element: list.get(2))) {
-                            Text("2")
+                            Text(list.get(2).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -238,8 +238,10 @@ struct ContentView: View {
                 // Period 2
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("3")
+                        
+                        // LITHIUM (3)
+                        NavigationLink(destination: SpecificView(element: list.get(3))) {
+                            Text(list.get(3).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -248,8 +250,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("4")
+                        // BERYLLIUM (4)
+                        NavigationLink(destination: SpecificView(element: list.get(4))) {
+                            Text(list.get(4).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -360,8 +363,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("5")
+                        // BORON (5)
+                        NavigationLink(destination: SpecificView(element: list.get(5))) {
+                            Text(list.get(5).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -370,8 +374,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("6")
+                        // CARBON (6)
+                        NavigationLink(destination: SpecificView(element: list.get(6))) {
+                            Text(list.get(6).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -380,8 +385,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("7")
+                        // NITROGEN (7)
+                        NavigationLink(destination: SpecificView(element: list.get(7))) {
+                            Text(list.get(7).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -390,8 +396,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("8")
+                        // OXYGEN (8)
+                        NavigationLink(destination: SpecificView(element: list.get(8))) {
+                            Text(list.get(8).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -400,8 +407,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("9")
+                        // FLUORINE (9)
+                        NavigationLink(destination: SpecificView(element: list.get(9))) {
+                            Text(list.get(9).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -410,8 +418,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("10")
+                        // NEON (10)
+                        NavigationLink(destination: SpecificView(element: list.get(10))) {
+                            Text(list.get(10).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -425,8 +434,10 @@ struct ContentView: View {
                 // Period 3
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("11")
+                        
+                        // SODIUM (11)
+                        NavigationLink(destination: SpecificView(element: list.get(11))) {
+                            Text(list.get(11).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -435,8 +446,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("12")
+                        // MAGNESIUM (12)
+                        NavigationLink(destination: SpecificView(element: list.get(12))) {
+                            Text(list.get(12).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -546,8 +558,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("13")
+                        // ALUMINUM (13)
+                        NavigationLink(destination: SpecificView(element: list.get(13))) {
+                            Text(list.get(13).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -556,8 +569,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("14")
+                        // SILICON (14)
+                        NavigationLink(destination: SpecificView(element: list.get(14))) {
+                            Text(list.get(14).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -566,8 +580,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("15")
+                        // PHOSPHORUS (15)
+                        NavigationLink(destination: SpecificView(element: list.get(15))) {
+                            Text(list.get(15).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -576,8 +591,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("16")
+                        // SULFUR (16)
+                        NavigationLink(destination: SpecificView(element: list.get(16))) {
+                            Text(list.get(16).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -586,8 +602,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("17")
+                        // CHLORINE (17)
+                        NavigationLink(destination: SpecificView(element: list.get(17))) {
+                            Text(list.get(17).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -596,8 +613,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("18")
+                        // ARGON (18)
+                        NavigationLink(destination: SpecificView(element: list.get(18))) {
+                            Text(list.get(18).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -611,8 +629,10 @@ struct ContentView: View {
                 // Period 4
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("19")
+                        
+                        // POTASSIUM (19)
+                        NavigationLink(destination: SpecificView(element: list.get(19))) {
+                            Text(list.get(19).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -621,8 +641,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("20")
+                        // CALCIUM (20)
+                        NavigationLink(destination: SpecificView(element: list.get(20))) {
+                            Text(list.get(20).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -631,8 +652,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("21")
+                        // SCANDIUM (21)
+                        NavigationLink(destination: SpecificView(element: list.get(21))) {
+                            Text(list.get(21).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -641,8 +663,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("22")
+                        // TITANIUM (22)
+                        NavigationLink(destination: SpecificView(element: list.get(22))) {
+                            Text(list.get(22).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -651,8 +674,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("23")
+                        // VANADIUM (23)
+                        NavigationLink(destination: SpecificView(element: list.get(23))) {
+                            Text(list.get(23).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -661,8 +685,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("24")
+                        // CHROMIUM (24)
+                        NavigationLink(destination: SpecificView(element: list.get(24))) {
+                            Text(list.get(24).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -671,8 +696,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("25")
+                        // MANGANESE (25)
+                        NavigationLink(destination: SpecificView(element: list.get(25))) {
+                            Text(list.get(25).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -681,8 +707,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("26")
+                        // IRON (26)
+                        NavigationLink(destination: SpecificView(element: list.get(26))) {
+                            Text(list.get(26).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -691,8 +718,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("27")
+                        // COBALT (27)
+                        NavigationLink(destination: SpecificView(element: list.get(27))) {
+                            Text(list.get(27).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -701,8 +729,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("28")
+                        // NICKEL (28)
+                        NavigationLink(destination: SpecificView(element: list.get(28))) {
+                            Text(list.get(28).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -712,8 +741,10 @@ struct ContentView: View {
                         .frame(width: frameWidth, height: frameHeight)
                     }
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("29")
+                        
+                        // COPPER (29)
+                        NavigationLink(destination: SpecificView(element: list.get(29))) {
+                            Text(list.get(29).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -722,8 +753,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("30")
+                        // ZINC (30)
+                        NavigationLink(destination: SpecificView(element: list.get(30))) {
+                            Text(list.get(30).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -732,8 +764,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("31")
+                        // GALLIUM (31)
+                        NavigationLink(destination: SpecificView(element: list.get(31))) {
+                            Text(list.get(31).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -742,8 +775,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("32")
+                        // GERMANIUM (32)
+                        NavigationLink(destination: SpecificView(element: list.get(32))) {
+                            Text(list.get(32).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -752,8 +786,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("33")
+                        // ARSENIC (33)
+                        NavigationLink(destination: SpecificView(element: list.get(33))) {
+                            Text(list.get(33).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -762,8 +797,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("34")
+                        // SELENIUM (34)
+                        NavigationLink(destination: SpecificView(element: list.get(34))) {
+                            Text(list.get(34).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -772,8 +808,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("35")
+                        // BROMINE (35)
+                        NavigationLink(destination: SpecificView(element: list.get(35))) {
+                            Text(list.get(35).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -782,8 +819,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("36")
+                        // KRYPTON (36)
+                        NavigationLink(destination: SpecificView(element: list.get(36))) {
+                            Text(list.get(36).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -797,8 +835,10 @@ struct ContentView: View {
                 // Period 5
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("37")
+                        
+                        // RUBIDIUM (37)
+                        NavigationLink(destination: SpecificView(element: list.get(37))) {
+                            Text(list.get(37).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -807,8 +847,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("38")
+                        // STRONTIUM (38)
+                        NavigationLink(destination: SpecificView(element: list.get(38))) {
+                            Text(list.get(38).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -817,8 +858,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("39")
+                        // YTTRIUM (39)
+                        NavigationLink(destination: SpecificView(element: list.get(39))) {
+                            Text(list.get(39).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -827,8 +869,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("40")
+                        // ZIRCONIUM (40)
+                        NavigationLink(destination: SpecificView(element: list.get(40))) {
+                            Text(list.get(40).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -837,8 +880,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("41")
+                        // NIOBIUM (41)
+                        NavigationLink(destination: SpecificView(element: list.get(41))) {
+                            Text(list.get(41).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -847,8 +891,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("42")
+                        // MOLYBDENUM (42)
+                        NavigationLink(destination: SpecificView(element: list.get(42))) {
+                            Text(list.get(42).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -857,8 +902,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("43")
+                        // TECHNETIUM (43)
+                        NavigationLink(destination: SpecificView(element: list.get(43))) {
+                            Text(list.get(43).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -867,8 +913,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("44")
+                        // RUTHENIUM (44)
+                        NavigationLink(destination: SpecificView(element: list.get(44))) {
+                            Text(list.get(44).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -877,8 +924,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("45")
+                        // RHODIUM (45)
+                        NavigationLink(destination: SpecificView(element: list.get(45))) {
+                            Text(list.get(45).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -887,8 +935,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("46")
+                        // PALLADIUM (46)
+                        NavigationLink(destination: SpecificView(element: list.get(46))) {
+                            Text(list.get(46).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -898,8 +947,10 @@ struct ContentView: View {
                         .frame(width: frameWidth, height: frameHeight)
                     }
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("47")
+                        
+                        // SILVER (47)
+                        NavigationLink(destination: SpecificView(element: list.get(47))) {
+                            Text(list.get(47).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -908,8 +959,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("48")
+                        // CADMIUM (48)
+                        NavigationLink(destination: SpecificView(element: list.get(48))) {
+                            Text(list.get(48).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -918,8 +970,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("49")
+                        // INDIUM (49)
+                        NavigationLink(destination: SpecificView(element: list.get(49))) {
+                            Text(list.get(49).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -928,8 +981,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("50")
+                        // TIN (50)
+                        NavigationLink(destination: SpecificView(element: list.get(50))) {
+                            Text(list.get(50).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -938,8 +992,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("51")
+                        // ANTIMONY (51)
+                        NavigationLink(destination: SpecificView(element: list.get(51))) {
+                            Text(list.get(51).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -948,8 +1003,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("52")
+                        // TELLURIUM (52)
+                        NavigationLink(destination: SpecificView(element: list.get(52))) {
+                            Text(list.get(52).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -958,8 +1014,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("53")
+                        // IODINE (53)
+                        NavigationLink(destination: SpecificView(element: list.get(53))) {
+                            Text(list.get(53).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -968,8 +1025,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("54")
+                        // XENON (54)
+                        NavigationLink(destination: SpecificView(element: list.get(54))) {
+                            Text(list.get(54).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -985,8 +1043,10 @@ struct ContentView: View {
                 // Period 6
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("55")
+                        
+                        // CESIUM (55)
+                        NavigationLink(destination: SpecificView(element: list.get(55))) {
+                            Text(list.get(55).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -995,8 +1055,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("56")
+                        // BARIUM (56)
+                        NavigationLink(destination: SpecificView(element: list.get(56))) {
+                            Text(list.get(56).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1005,7 +1066,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        // leave button as blank
+                        
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
                             .foregroundColor(buttonTextColor)
@@ -1016,8 +1077,10 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("72")
+                        
+                        // HAFNIUM (72)
+                        NavigationLink(destination: SpecificView(element: list.get(72))) {
+                            Text(list.get(72).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1026,8 +1089,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("73")
+                        // TANTALUM (73)
+                        NavigationLink(destination: SpecificView(element: list.get(73))) {
+                            Text(list.get(73).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1036,8 +1100,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("74")
+                        // TUNGSTEN (74)
+                        NavigationLink(destination: SpecificView(element: list.get(74))) {
+                            Text(list.get(74).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1046,8 +1111,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("75")
+                        // RHENIUM (75)
+                        NavigationLink(destination: SpecificView(element: list.get(75))) {
+                            Text(list.get(75).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1056,8 +1122,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("76")
+                        // OSMIUM (76)
+                        NavigationLink(destination: SpecificView(element: list.get(76))) {
+                            Text(list.get(76).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1066,8 +1133,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("77")
+                        // IRIDIUM (77)
+                        NavigationLink(destination: SpecificView(element: list.get(77))) {
+                            Text(list.get(77).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1076,8 +1144,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("78")
+                        // PLATINUM (78)
+                        NavigationLink(destination: SpecificView(element: list.get(78))) {
+                            Text(list.get(78).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1087,8 +1156,10 @@ struct ContentView: View {
                         .frame(width: frameWidth, height: frameHeight)
                     }
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("79")
+                        
+                        // GOLD (79)
+                        NavigationLink(destination: SpecificView(element: list.get(79))) {
+                            Text(list.get(79).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1097,8 +1168,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("80")
+                        // MERCURY (80)
+                        NavigationLink(destination: SpecificView(element: list.get(80))) {
+                            Text(list.get(80).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1107,8 +1179,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("81")
+                        // THALLIUM (81)
+                        NavigationLink(destination: SpecificView(element: list.get(81))) {
+                            Text(list.get(81).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1117,8 +1190,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("82")
+                        // LEAD (82)
+                        NavigationLink(destination: SpecificView(element: list.get(82))) {
+                            Text(list.get(82).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1127,8 +1201,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("83")
+                        // BISMUTH (83)
+                        NavigationLink(destination: SpecificView(element: list.get(83))) {
+                            Text(list.get(83).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1137,8 +1212,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("84")
+                        // POLONIUM (84)
+                        NavigationLink(destination: SpecificView(element: list.get(84))) {
+                            Text(list.get(84).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1147,8 +1223,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("85")
+                        // ASTATINE (85)
+                        NavigationLink(destination: SpecificView(element: list.get(85))) {
+                            Text(list.get(85).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1157,8 +1234,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("86")
+                        // RADON (86)
+                        NavigationLink(destination: SpecificView(element: list.get(86))) {
+                            Text(list.get(86).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1172,8 +1250,10 @@ struct ContentView: View {
                 // Period 7
                 HStack (spacing: stackSpacing) {
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("87")
+                        
+                        // FRANCIUM (87)
+                        NavigationLink(destination: SpecificView(element: list.get(87))) {
+                            Text(list.get(87).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1182,8 +1262,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("88")
+                        // RADIUM (88)
+                        NavigationLink(destination: SpecificView(element: list.get(88))) {
+                            Text(list.get(88).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1192,7 +1273,7 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        // leave button as blank
+                        
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("")
                             .foregroundColor(buttonTextColor)
@@ -1203,8 +1284,10 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("104")
+                        
+                        // RUTHERFORDIUM (104)
+                        NavigationLink(destination: SpecificView(element: list.get(104))) {
+                            Text(list.get(104).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1213,8 +1296,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("105")
+                        // DUBNIUM (105)
+                        NavigationLink(destination: SpecificView(element: list.get(105))) {
+                            Text(list.get(105).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1223,8 +1307,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("106")
+                        // SEABORGIUM (106)
+                        NavigationLink(destination: SpecificView(element: list.get(106))) {
+                            Text(list.get(106).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1233,8 +1318,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("107")
+                        // BOHRIUM (107)
+                        NavigationLink(destination: SpecificView(element: list.get(107))) {
+                            Text(list.get(107).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1243,8 +1329,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("108")
+                        // HASSIUM (108)
+                        NavigationLink(destination: SpecificView(element: list.get(108))) {
+                            Text(list.get(108).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1253,8 +1340,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("109")
+                        // MEITNERIUM (109)
+                        NavigationLink(destination: SpecificView(element: list.get(109))) {
+                            Text(list.get(109).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1263,8 +1351,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("110")
+                        // DARMSTADTIUM (110)
+                        NavigationLink(destination: SpecificView(element: list.get(110))) {
+                            Text(list.get(110).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1274,8 +1363,10 @@ struct ContentView: View {
                         .frame(width: frameWidth, height: frameHeight)
                     }
                     Group {
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("111")
+                        
+                        // ROENTGENIUM (111)
+                        NavigationLink(destination: SpecificView(element: list.get(111))) {
+                            Text(list.get(111).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1284,8 +1375,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("112")
+                        // COPERNICIUM (112)
+                        NavigationLink(destination: SpecificView(element: list.get(112))) {
+                            Text(list.get(112).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1294,8 +1386,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("113")
+                        // NIHONIUM (113)
+                        NavigationLink(destination: SpecificView(element: list.get(113))) {
+                            Text(list.get(113).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1304,8 +1397,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("114")
+                        // FLEROVIUM (114)
+                        NavigationLink(destination: SpecificView(element: list.get(114))) {
+                            Text(list.get(114).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1314,8 +1408,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("115")
+                        // MOSCOVIUM (115)
+                        NavigationLink(destination: SpecificView(element: list.get(115))) {
+                            Text(list.get(115).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1324,8 +1419,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("116")
+                        // LIVERMORIUM (116)
+                        NavigationLink(destination: SpecificView(element: list.get(116))) {
+                            Text(list.get(116).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1334,8 +1430,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("117")
+                        // TENNESSINE (117)
+                        NavigationLink(destination: SpecificView(element: list.get(117))) {
+                            Text(list.get(117).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
@@ -1344,8 +1441,9 @@ struct ContentView: View {
                         .padding()
                         .frame(width: frameWidth, height: frameHeight)
                         
-                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                            Text("118")
+                        // OGANESSON (118)
+                        NavigationLink(destination: SpecificView(element: list.get(118))) {
+                            Text(list.get(118).getSymbol())
                             .foregroundColor(buttonTextColor)
                             .multilineTextAlignment(.center)
                                 .frame(width: frameWidth, height: frameHeight)
