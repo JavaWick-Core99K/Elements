@@ -1453,6 +1453,437 @@ struct ContentView: View {
                         .frame(width: frameWidth, height: frameHeight)
                     }
                 }
+                
+                // Free period row (leave it as blank)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Text("")
+                    .foregroundColor(buttonTextColor)
+                    .multilineTextAlignment(.center)
+                        .frame(width: frameWidth, height: frameHeight)
+                    .font(.system(size: buttonFontSize))
+                }
+                .padding()
+                .frame(width: frameWidth, height: frameHeight)
+                
+                // Period 8: Elements 57 - 71
+                HStack (spacing: stackSpacing) {
+                    
+                    Group {
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        
+                        // LANTHANUM (57)
+                        NavigationLink(destination: SpecificView(element: list.get(57))) {
+                            Text(list.get(57).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // CERIUM (58)
+                        NavigationLink(destination: SpecificView(element: list.get(58))) {
+                            Text(list.get(58).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // PRASEODYMIUM (59)
+                        NavigationLink(destination: SpecificView(element: list.get(59))) {
+                            Text(list.get(59).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // NEODYMIUM (60)
+                        NavigationLink(destination: SpecificView(element: list.get(60))) {
+                            Text(list.get(60).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // PROMETHIUM (61)
+                        NavigationLink(destination: SpecificView(element: list.get(61))) {
+                            Text(list.get(61).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // SAMARIUM (62)
+                        NavigationLink(destination: SpecificView(element: list.get(62))) {
+                            Text(list.get(62).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // EUROPIUM (63)
+                        NavigationLink(destination: SpecificView(element: list.get(63))) {
+                            Text(list.get(63).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                    }
+                    
+                    Group {
+                        
+                        // GADOLINIUM (64)
+                        NavigationLink(destination: SpecificView(element: list.get(64))) {
+                            Text(list.get(64).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // TERBIUM (65)
+                        NavigationLink(destination: SpecificView(element: list.get(65))) {
+                            Text(list.get(65).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // DYSPROSIUM (66)
+                        NavigationLink(destination: SpecificView(element: list.get(66))) {
+                            Text(list.get(66).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // HOLMIUM (67)
+                        NavigationLink(destination: SpecificView(element: list.get(67))) {
+                            Text(list.get(67).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // ERBIUM (68)
+                        NavigationLink(destination: SpecificView(element: list.get(68))) {
+                            Text(list.get(68).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // THULIUM (69)
+                        NavigationLink(destination: SpecificView(element: list.get(69))) {
+                            Text(list.get(69).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // YTTERBIUM (70)
+                        NavigationLink(destination: SpecificView(element: list.get(70))) {
+                            Text(list.get(70).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // LUTETIUM (71)
+                        NavigationLink(destination: SpecificView(element: list.get(71))) {
+                            Text(list.get(71).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                    }
+                }
+                
+                // Period 9: Elements 89 - 103
+                HStack (spacing: stackSpacing) {
+                    
+                    Group {
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                            Text("")
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        
+                        
+                        // ACTINIUM (89)
+                        NavigationLink(destination: SpecificView(element: list.get(89))) {
+                            Text(list.get(89).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // THORIUM (90)
+                        NavigationLink(destination: SpecificView(element: list.get(90))) {
+                            Text(list.get(90).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // PROTACTINIUM (91)
+                        NavigationLink(destination: SpecificView(element: list.get(91))) {
+                            Text(list.get(91).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // URANIUM (92)
+                        NavigationLink(destination: SpecificView(element: list.get(92))) {
+                            Text(list.get(92).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // NEPTUNIUM (93)
+                        NavigationLink(destination: SpecificView(element: list.get(93))) {
+                            Text(list.get(93).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // PLUTONIUM (94)
+                        NavigationLink(destination: SpecificView(element: list.get(94))) {
+                            Text(list.get(94).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // AMERICIUM (95)
+                        NavigationLink(destination: SpecificView(element: list.get(95))) {
+                            Text(list.get(95).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                    }
+                    
+                    Group {
+                        
+                        // CURIUM (96)
+                        NavigationLink(destination: SpecificView(element: list.get(96))) {
+                            Text(list.get(96).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // BERKELIUM (97)
+                        NavigationLink(destination: SpecificView(element: list.get(97))) {
+                            Text(list.get(97).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // CALIFORNIUM (98)
+                        NavigationLink(destination: SpecificView(element: list.get(98))) {
+                            Text(list.get(98).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // EINSTEINIUM (99)
+                        NavigationLink(destination: SpecificView(element: list.get(99))) {
+                            Text(list.get(99).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // FERMIUM (100)
+                        NavigationLink(destination: SpecificView(element: list.get(100))) {
+                            Text(list.get(100).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // MENDELEVIUM (101)
+                        NavigationLink(destination: SpecificView(element: list.get(101))) {
+                            Text(list.get(101).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // NOBELIUM (102)
+                        NavigationLink(destination: SpecificView(element: list.get(102))) {
+                            Text(list.get(102).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                        // LAWRENCIUM (103)
+                        NavigationLink(destination: SpecificView(element: list.get(103))) {
+                            Text(list.get(103).getSymbol())
+                            .foregroundColor(buttonTextColor)
+                            .multilineTextAlignment(.center)
+                                .frame(width: frameWidth, height: frameHeight)
+                            .font(.system(size: buttonFontSize))
+                        }
+                        .padding()
+                        .frame(width: frameWidth, height: frameHeight)
+                        
+                    }
+                }
+                
+                
             }
         }.navigationViewStyle(StackNavigationViewStyle())
         
