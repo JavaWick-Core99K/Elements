@@ -7,8 +7,9 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct Element {
+class Element {
     
     var name: String
     var symbol: String
@@ -19,9 +20,9 @@ struct Element {
     var electrons: Int
     var neutrons: Int
     
-    var discovery: String?
-    var discoveryDate: String?
-    var location: String?
+    var discovery: String
+    var discoveryDate: String
+    var location: String
     
     init(name: String, symbol: String, number: Int, mass: Double) {
         self.name = name
@@ -32,6 +33,10 @@ struct Element {
         protons = number
         electrons = number
         neutrons = Int(atomicMass) - atomicNumber
+        
+        discovery = "discovery:null"
+        discoveryDate = "discoveryDate:null"
+        location = "location:null"
     }
     
     func getName() -> String {
@@ -62,15 +67,27 @@ struct Element {
         return neutrons
     }
     
-    func getDiscovery() -> String? {
+    func getDiscovery() -> String {
         return discovery
     }
     
-    func getDiscoveryDate() -> String? {
+    func getDiscoveryDate() -> String {
         return discoveryDate
     }
     
-    func getLocation() -> String? {
+    func getLocation() -> String {
         return location
+    }
+    
+    func setDiscovery(info: String) {
+        discovery = info
+    }
+    
+    func setDiscoveryDate(info: String) {
+        discoveryDate = info
+    }
+    
+    func setLocation(info: String) {
+        location = info
     }
 }

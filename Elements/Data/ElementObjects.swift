@@ -8,6 +8,11 @@
 
 import Foundation
 
+func getDiscoveryTest() -> String {
+    let str = "Hello"
+    return str
+}
+
 struct ElementObjects {
     
     var list = [Element?](repeating: nil, count: 118)
@@ -15,24 +20,34 @@ struct ElementObjects {
     init() {
         
         list[0] = Element(name: "Hydrogen", symbol: "H", number: 1, mass: 1.0079)
+        list[0]!.setDiscovery(info: getDiscoveryHydrogen())
         
         list[1] = Element(name: "Helium", symbol: "He", number: 2, mass: 4.0026)
+        list[1]!.setDiscovery(info: getDiscoveryHelium())
         
         list[2] = Element(name: "Lithium", symbol: "Li", number: 3, mass: 6.941)
+        list[2]!.setDiscovery(info: getDiscoveryLithium())
         
         list[3] = Element(name: "Beryllium", symbol: "Be", number: 4, mass: 9.0122)
+        list[3]!.setDiscovery(info: getDiscoveryBeryllium())
         
         list[4] = Element(name: "Boron", symbol: "B", number: 5, mass: 10.811)
+        list[4]!.setDiscovery(info: getDiscoveryBoron())
         
         list[5] = Element(name: "Carbon", symbol: "C", number: 6, mass: 12.0107)
+        list[5]!.setDiscovery(info: getDiscoveryCarbon())
         
         list[6] = Element(name: "Nitrogen", symbol: "N", number: 7, mass: 14.0067)
+        list[6]!.setDiscovery(info: getDiscoveryNitrogen())
         
         list[7] = Element(name: "Oxygen", symbol: "O", number: 8, mass: 15.9994)
+        list[7]!.setDiscovery(info: getDiscoveryOxygen())
         
         list[8] = Element(name: "Fluorine", symbol: "F", number: 9, mass: 18.9984)
+        list[8]!.setDiscovery(info: getDiscoveryFluorine())
         
         list[9] = Element(name: "Neon", symbol: "Ne", number: 10, mass: 20.1797)
+        list[9]!.setDiscovery(info: getDiscoveryNeon())
         
         list[10] = Element(name: "Sodium", symbol: "Na", number: 11, mass: 22.9898)
         

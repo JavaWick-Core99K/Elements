@@ -16,12 +16,15 @@ let buttonTextColor = Color.primary
 
 let stackSpacing: CGFloat = 3.0
 
-let list = ElementObjects()
+
 
 struct ContentView: View {
     
-    @State var text = "Hello, SwiftUI!"
-    //@State var elementToggle = [Bool](repeating: false, count: 118)
+    let list: ElementObjects
+    
+    init() {
+        list = ElementObjects()
+    }
     
     var body: some View {
         
