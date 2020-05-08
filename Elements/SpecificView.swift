@@ -62,14 +62,27 @@ struct SpecificView: View {
                 
                 HStack {
                     
-                    Image("\(atomicNumber)")
-                    .resizable()
-                    .frame(width: 350, height: 350)
-                        .offset(x: -50)
+                    VStack {
+                        
+                        Image("\(atomicNumber)")
+                        .resizable()
+                        .frame(width: 350, height: 350)
+                        
+                        // Copyright Indicator
+                        Text("© Element Collection, Inc.")
+                        .foregroundColor(textColor)
+                        .multilineTextAlignment(.center)
+                            .frame(width: 200, height: 30)
+                        .font(.system(size: 11))
+                        .lineLimit(1)
+                        
+                    }.offset(x: -50)
+                    
+                    
                     
                     // Discovery
                     NavigationLink(destination: DiscoveryView(object: self.element)) {
-                        Text("Click For Element Discovery")
+                        Text("Tap For Element Discovery")
                             .foregroundColor(Color.blue)
                         .multilineTextAlignment(.center)
                             .frame(width: frameWidth, height: frameHeight)
