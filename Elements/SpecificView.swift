@@ -54,7 +54,7 @@ struct SpecificView: View {
                 
                 HStack {
                     
-                    Image("atom")
+                    Image("\(atomicNumber)")
                     .resizable()
                     .frame(width: 350, height: 350)
                         .offset(x: -50)
