@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-let frameWidth: CGFloat = 30.0
-let frameHeight: CGFloat = 30.0
+private let frameWidth: CGFloat = 30.0
+private let frameHeight: CGFloat = 30.0
 
-let buttonFontSize: CGFloat = 15
-let buttonTextColor = Color.primary
+private let buttonFontSize: CGFloat = 15
+private let buttonTextColor = Color.primary
 
-let stackSpacing: CGFloat = 3.0
+private let stackSpacing: CGFloat = 3.0
 
 
 

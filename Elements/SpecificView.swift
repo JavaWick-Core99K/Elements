@@ -15,8 +15,14 @@ let atomFontSize: CGFloat = 20.0
 
 let textColor = Color.primary
 
+private let frameWidth: CGFloat = 130.0
+private let frameHeight: CGFloat = 60.0
+
+private let buttonFontSize: CGFloat = 15
+
 struct SpecificView: View {
     
+    var element: Element
     var name: String
     var symbol: String
     var atomicNumber: Int
@@ -31,6 +37,8 @@ struct SpecificView: View {
     var location: String
     
     init(element: Element) {
+        self.element = element
+        
         self.name = element.getName()
         self.symbol = element.getSymbol()
         self.atomicNumber = element.getAtomicNumber()
@@ -60,13 +68,19 @@ struct SpecificView: View {
                         .offset(x: -50)
                     
                     // Discovery
-                    Text(self.discovery)
-                    .frame(width: 250, height: 700)
-                    .font(.system(size: 12))
-                    .lineLimit(20)
-                        .offset(x: 50)
+                    NavigationLink(destination: DiscoveryView(object: self.element)) {
+                        Text("Click For Element Discovery")
+                            .foregroundColor(Color.blue)
+                        .multilineTextAlignment(.center)
+                            .frame(width: frameWidth, height: frameHeight)
+                        .font(.system(size: buttonFontSize))
+                        .lineLimit(2)
+                    }
+                    .padding()
+                    .frame(width: frameWidth, height: frameHeight)
+                    .offset(x: 50)
                     
-                }.offset(y: -150)
+                }.offset(y: -125)
                 
                 VStack {
                     
@@ -134,7 +148,7 @@ struct SpecificView: View {
                         
                     }
                     
-                }.offset(x: -80, y: -250)
+                }.offset(x: 0, y: 0)
                 
                 
                 
@@ -148,7 +162,7 @@ struct SpecificView: View {
     
 }
 
-private let testElement = Element(name: "String", symbol: "String", number: 1, mass: 1)
+let testElement = Element(name: "String", symbol: "String", number: 1, mass: 1)
 struct SpecificView_Previews: PreviewProvider {
     static var previews: some View {
         SpecificView(element: testElement)
